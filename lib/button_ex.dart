@@ -58,7 +58,7 @@ class _ButtonStatefullWidgetState extends State<ButtonStatefullWidget> {
         child: Text("Stateful Widget $_index", style: TextStyle(color: Colors.white)),
         style: TextButton.styleFrom(
           backgroundColor:  colors[_index],
-        ) ,
+        ),
     );
   }
 }
